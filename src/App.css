@@ -1,0 +1,62 @@
+.App {
+  text-align: center;
+}
+
+body{
+  color: #FF5A09;
+  background-color: #393939;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+  margin: 10px;
+
+  padding: 10px;
+  border-radius: 10px;
+}
+select{
+  margin: 10px;
+  padding: 5px;
+  background-color: #393939;
+  border: 2px solid #ec7f37;
+  border-radius: 10px;
+  color:#FF5A09;
+  width: 200px;
+  }
+  option{
+  color: #FF5A09;  
+  }
+  #imageholder
+  {
+    box-sizing: border-box;
+    width: 500px;
+    height:500px;
+    border-radius: 10px;
+    border:2px solid #ec7f37;
+    background:url("https://images.dog.ceo/breeds/havanese/00100trPORTRAIT_00100_BURST20191126134713895_COVER.jpg");
+    background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+   }
+   #imageholder:hover{
+    filter: brightness(1.20);
+   }
+     div{
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      align-items: center;
+      justify-self: center;
+     }
+     button{
+      margin: 10px;
+      padding:10px;
+    background-color: #393939;
+    color: #be4f0c;
+    border: 2px solid #ec7f37;
+    border-radius: 10px;
+     }
+     button:hover{
+      filter:brightness(140%)
+     }
